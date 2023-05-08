@@ -49,6 +49,12 @@ Route::post('/markAttendance', $controller_path . '\Api\Attendance@markAttendanc
 Route::get('/getAttendanceSingle/{id}', $controller_path . '\Api\Attendance@getAttendanceSingle')->name('getAttendanceSingle');
 
 Route::post('/getClassesByBranchByDate', $controller_path .'\Api\ProjectClass@getClassesByBranchByDate')->name('getClassesByBranchByDate');
+Route::post('/getOpenClassSingle', $controller_path .'\Api\ProjectClass@getOpenClassSingle')->name('getOpenClassSingle');
+
+Route::get('/getJobCategory', $controller_path .'\Api\Job@getJobCategory')->name('getJobCategory');
+Route::get('/getJobs', $controller_path .'\Api\Job@getJobs')->name('getJobs');
+Route::post('/submitCareerForm', $controller_path .'\Api\Job@submitCareerForm')->name('submitCareerForm');
+
 
 //Jitendra Routes
 Route::post('/changeProjectClassStatus', $controller_path . '\Api\ProjectClass@changeProjectClassStatus')->name('changeProjectClassStatus');

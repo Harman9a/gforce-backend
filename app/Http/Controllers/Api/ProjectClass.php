@@ -157,7 +157,15 @@ class ProjectClass extends Controller
     }
     
     public function getWorkShopSingle(Request $req){
-        $res = ProjectClassModel::where('id',$req->id)->get();
+        $res = WorkshopModel::where('id',$req->id)->get();
+        foreach($res as $row){
+            $row['branchName'] =  Branch::where('id',$row->branch_id)->get()[0]->name;
+        }
+       return $res;
+    }
+
+    public function getOpenClassSingle(Request $req){
+        $res = OpenClassModel::where('id',$req->id)->get();
         foreach($res as $row){
             $row['branchName'] =  Branch::where('id',$row->branchname)->get()[0]->name;
         }

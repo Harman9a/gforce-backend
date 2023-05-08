@@ -6,36 +6,36 @@
       "icon": "menu-icon tf-icons bx bx-home-circle",
       "slug": "dashboard-analytics"
     },
-   
+
     {
       "menuHeader": "Branch"
     },
     {
-      "url": "/addBranch",
-      "name": "Add Branch",
-      "icon": "menu-icon tf-icons bx bx-home-circle",
-      "slug": "addBranch"
+      "url": "/allBranch",
+      "name": "Branch",
+      "icon": "menu-icon tf-icons bx bx-git-branch",
+      "slug": "allBranch"
     },
     {
-      "url": "/allBranch",
-      "name": "All Branch",
-      "icon": "menu-icon tf-icons bx bx-home-circle",
-      "slug": "allBranch"
+      "url": "/addBranch",
+      "name": "Add Branch",
+      "icon": "menu-icon tf-icons bx bx-plus-circle",
+      "slug": "addBranch"
     },
     {
       "menuHeader": "Packages"
     },
     {
-      "url": "/addPackage",
-      "name": "Add Package",
-      "icon": "menu-icon tf-icons bx bx-home-circle",
-      "slug": "addPackage"
+      "url": "/allPackage",
+      "name": "Package",
+      "icon": "menu-icon tf-icons bx  bx-package",
+      "slug": "allPackage"
     },
     {
-      "url": "/allPackage",
-      "name": "All Package",
-      "icon": "menu-icon tf-icons bx bx-home-circle",
-      "slug": "allPackage"
+      "url": "/addPackage",
+      "name": "Add Package",
+      "icon": "menu-icon tf-icons bx bx-plus-circle",
+      "slug": "addPackage"
     },
     {
       "menuHeader": "Projects Classes"
@@ -43,34 +43,34 @@
     {
       "icon": "menu-icon tf-icons bx bx-box",
       "url": "/projectClassAll",
-      "name": "All Projects Classes",
+      "name": "Projects Classes",
       "slug": "projectClassAll"
     },
 
     {
       "icon": "menu-icon tf-icons bx bx-box",
       "url": "/allOpenClassesView",
-      "name": "All Open Classes",
+      "name": "Open Classes",
       "slug": "allOpenClassesView"
     },
 
     {
-      "icon": "menu-icon tf-icons bx bx-box",
+      "icon": "menu-icon tf-icons bx bx-user",
       "url": "/allStudentsView",
-      "name": "All Students",
+      "name": "Students",
       "slug": "allStudentsView"
     },
-    
-      {
-      "icon": "menu-icon tf-icons bx bx-box",
+
+    {
+      "icon": "menu-icon tf-icons bx bx-wallet",
       "url": "/allPayments",
-      "name": "All Payments",
+      "name": "Payments",
       "slug": "allPayments"
     },
     {
-      "icon": "menu-icon tf-icons bx bx-box",
+      "icon": "menu-icon tf-icons bx bx-user-check",
       "url": "/allAttendence",
-      "name": "All Attendence",
+      "name": "Attendence",
       "slug": "allAttendence"
     },
     {
@@ -78,111 +78,108 @@
     },
     {
       "icon": "menu-icon tf-icons bx bx-box",
+      "url": "/allWorkshopView",
+      "name": "Workshop",
+      "slug": "allWorkshopView"
+    },
+    {
+      "icon": "menu-icon tf-icons bx bx-plus-circle",
       "url": "/workshopAdd",
       "name": "Add Workshop",
       "slug": "workshopAdd"
     },
-
-    {
-      "icon": "menu-icon tf-icons bx bx-box",
-      "url": "/allWorkshopView",
-      "name": "All Workshop",
-      "slug": "allWorkshopView"
-    },
-
     {
       "menuHeader": "Trainer"
     },
     {
-      "icon": "menu-icon tf-icons bx bx-box",
+      "icon": "menu-icon tf-icons bx bx-user",
+      "url": "/allTrainerView",
+      "name": "Trainer",
+      "slug": "allTrainerView"
+    },
+    {
+      "icon": "menu-icon tf-icons bx bx-plus-circle",
       "url": "/trainerAdd",
       "name": "Add Trainer",
       "slug": "trainerAdd"
     },
 
     {
-      "icon": "menu-icon tf-icons bx bx-box",
-      "url": "/allTrainerView",
-      "name": "All Trainer",
-      "slug": "allTrainerView"
-    },
-     {
       "menuHeader": "Booking Enquries"
     },
     {
-      "icon": "menu-icon tf-icons bx bx-box",
+      "icon": "menu-icon tf-icons bx bx-list-ul",
       "url": "/allBookingView",
-      "name": "All Booking",
+      "name": "Booking",
       "slug": "allBookingView"
     },
 
     {
-      "icon": "menu-icon tf-icons bx bx-box",
+      "icon": "menu-icon tf-icons bx bx-envelope",
       "url": "/allContactusView",
-      "name": "All Contact-us list",
+      "name": "Contact-us",
       "slug": "allContactusView"
     },
 
     {
-      "icon": "menu-icon tf-icons bx bx-box",
+      "icon": "menu-icon tf-icons bx bx-briefcase",
       "url": "/allCarrerView",
-      "name": "All Carrer list",
+      "name": "Carrer",
       "slug": "allCarrerView"
     },
-     {
-      "menuHeader": "Class Schedule"
+    {
+      "menuHeader": "Schedule"
     },
     {
-      "icon": "menu-icon tf-icons bx bx-box",
+      "icon": "menu-icon tf-icons bx bx-time",
       "url": "/classSchedule",
-      "name": "Class Schedule",
+      "name": "Schedule",
       "slug": "classSchedule"
     },
-    
- {
+
+    {
       "menuHeader": "Job Positions"
     },
     {
       "name": "JobPositions",
-      "icon": "menu-icon tf-icons bx bx-box",
+      "icon": "menu-icon tf-icons bx bx-briefcase",
       "slug": "JobPositions",
       "submenu": [
         {
           "url": "/jobposition-alljobposition",
-          "name": "All Job Positions",
+          "name": "Job Positions",
           "slug": "jobposition-alljobposition"
         },
         {
           "url": "/jobposition-newjobposition",
-          "name": "New Job Position",
+          "name": "Add Job Position",
           "slug": "jobposition-newjobposition"
         },
 
         {
           "url": "/jobposition-jobpositioncategory",
-          "name": "JobPosition Category",
+          "name": "Job Position Category",
           "slug": "jobposition-jobpositioncategory"
         }
       ]
     },
-
 
     {
       "menuHeader": "Blogs"
     },
     {
       "name": "Blogs",
-      "icon": "menu-icon tf-icons bx bx-box",
+      "icon": "menu-icon tf-icons bx bxl-blogger",
       "slug": "blog",
       "submenu": [
         {
           "url": "/blog-allblogs",
-          "name": "All Blogs",
+          "name": "Blogs",
           "slug": "blog-allblogs"
         },
         {
           "url": "/blog-newblog",
-          "name": "New Blog",
+          "name": "Add Blog",
           "slug": "blog-newblog"
         },
 
@@ -193,9 +190,9 @@
         }
       ]
     },
-     {
+    {
       "name": "Pages",
-      "icon": "menu-icon tf-icons bx bx-box",
+      "icon": "menu-icon tf-icons bx bx-list-ul",
       "slug": "pages",
       "submenu": [
         {
@@ -210,17 +207,15 @@
         }
       ]
     },
-    
-
     {
       "name": "Organization Calendar",
-      "icon": "menu-icon tf-icons bx bx-collection",
+      "icon": "menu-icon tf-icons bx bx-calendar-check",
       "slug": "organization-calendar",
       "url": "/organization-calendar"
     },
     {
       "name": "Settings",
-      "icon": "menu-icon tf-icons bx bx-collection",
+      "icon": "menu-icon tf-icons bx bx-cog",
       "slug": "setting",
       "url": "/setting"
     }

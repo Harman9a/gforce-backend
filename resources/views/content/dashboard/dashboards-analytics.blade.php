@@ -23,7 +23,7 @@
           <div class="card-body">
             <div class="card-title d-flex align-items-start justify-content-between">
               <div class="avatar flex-shrink-0">
-                <span class="badge bg-label-info p-2"><i class="fa-solid fa-calendar-check" style="font-size:22px"></i></span>
+                <span class="badge bg-label-info p-2"><i class="fa-solid fa-briefcase" style="font-size:22px"></i></span>
               </div>
             </div>
             <span class="fw-semibold d-block mb-1">Total Workshops</span>
@@ -51,7 +51,7 @@
           <div class="card-body">
             <div class="card-title d-flex align-items-start justify-content-between">
               <div class="avatar flex-shrink-0">
-                <span class="badge bg-label-info p-2"><i class="fa-solid fa-calendar-check" style="font-size:22px"></i></span>
+                <span class="badge bg-label-info p-2"><i class="fa-solid fa-briefcase" style="font-size:22px"></i></span>
               </div>
             </div>
             <span class="fw-semibold d-block mb-1">Total Project Classes</span>
@@ -79,7 +79,7 @@
           <div class="card-body">
             <div class="card-title d-flex align-items-start justify-content-between">
               <div class="avatar flex-shrink-0">
-                <span class="badge bg-label-info p-2"><i class="fa-solid fa-calendar-check" style="font-size:22px"></i></span>
+                <span class="badge bg-label-info p-2"><i class="fa-solid fa-briefcase" style="font-size:22px"></i></span>
               </div>
             </div>
             <span class="fw-semibold d-block mb-1">Total Open Classes</span>
@@ -123,7 +123,7 @@
           <div class="card-body">
             <div class="card-title d-flex align-items-start justify-content-between">
               <div class="avatar flex-shrink-0">
-                <span class="badge bg-label-info p-2"><i class="fa-solid fa-calendar-check" style="font-size:22px"></i></span>
+                <span class="badge bg-label-info p-2"><i class="fa-solid fa-code-branch" style="font-size:22px"></i></span>
               </div>
             </div>
             <span class="fw-semibold d-block mb-1">Total Branch</span>
@@ -137,7 +137,7 @@
           <div class="card-body">
             <div class="card-title d-flex align-items-start justify-content-between">
               <div class="avatar flex-shrink-0">
-                <span class="badge bg-label-info p-2"><i class="fa-solid fa-calendar-check" style="font-size:22px"></i></span>
+                <span class="badge bg-label-info p-2"><i class="fa-solid fa-cubes" style="font-size:22px"></i></span>
               </div>
             </div>
             <span class="fw-semibold d-block mb-1">Total Package</span>
